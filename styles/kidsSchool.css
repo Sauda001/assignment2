@@ -11,6 +11,7 @@
 
 /* shared atyles */
 body{
+    /* background-image: url('assets/bg.png'); */
     margin: 0 141px;
 }
 
@@ -82,4 +83,52 @@ ul,a{
     border-radius: 12px;
     border: none;
     padding: 10px 47px;
+}
+
+/* satandard curriculam sector */
+
+h1{
+    font-weight: 700;
+    font-size: 37px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.standard-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.kinder-section{
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.elementary-section{
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.middle-year-section{
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.section-para{
+    color: #808080;
+}
+.kinder-btn{
+    color: skyblue;
+    background-color: white;
+    border: none;
+}
+.elementary-btn{
+    color: orange;
+    background-color: white;
+    border: none;
+}
+.middle-school-btn{
+    color: #8700FF;
+    background-color: white;
+    border: none;
 }
