@@ -132,3 +132,57 @@ h1{
     background-color: white;
     border: none;
 }
+
+/* our story section */
+
+.group38{
+    display: flex;
+    gap: 19px;
+}
+.group20{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+
+/* view all button */
+
+#frame3{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 61px;
+    margin: 60px;
+    align-items: center;
+}
+
+/* footer section */
+
+.rectangle17{
+    background-color: #01ACFD;
+    padding-top: 123px;
+    padding-bottom: 174px;
+    padding-left: 140px;
+    padding-right: 229px;
+}
+
+.group35{
+    display: flex;
+    color: white;
+}
+
+.kids-edu{
+    display: flex;
+}
+
+.social-media{
+    display: flex;
+    gap: 10px;
+}
+
+.about-school-btns{
+    background-color: #01ACFD;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
