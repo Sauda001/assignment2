@@ -10,8 +10,7 @@
 
 
 /* shared atyles */
-body{
-    /* background-image: url('assets/bg.png'); */
+.for-margin{
     margin: 0 141px;
 }
 
@@ -19,8 +18,8 @@ body{
 
 .navPosition{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
 .img-logo{
@@ -98,6 +97,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 28px;
+    background-image: url('/assets/bg.png');
 }
 .kinder-section{
     border-radius: 19px;
@@ -138,6 +138,7 @@ h1{
 .group38{
     display: flex;
     gap: 19px;
+    background-image: linear-gradient(to bottom , rgba(#FEA301,#fca10342), rgba(#FEA301,#FEA301,#FEA301,#FEA301)), url('assets/bg.png');
 }
 .group20{
     display: grid;
