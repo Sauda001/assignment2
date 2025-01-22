@@ -58,6 +58,9 @@ ul,a{
     font-weight: 600;
     border: none;
 }
+.btn-primary:hover{
+    background-color: rgb(223, 130, 9);
+}
 
 /* header section */
 
@@ -82,6 +85,9 @@ ul,a{
     border-radius: 12px;
     border: none;
     padding: 10px 47px;
+}
+.btn-secondary:hover{
+    background-color: gray;
 }
 
 /* satandard curriculam sector */
@@ -136,12 +142,34 @@ h1{
     border: none;
 }
 
+.odvut-btn{
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    border: none;
+    height: 70px;
+    width: 70px;
+    font-weight: 700px;
+    font-size:35px;
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+.odvut-btn:hover{
+    background-color: orangered;
+}
+
 /* our story section */
 
 .our-story {
         background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0.068), rgba(254, 161, 1, 0.281)), url('/assets/bg.png');
 }
-    
+
+.for-content-alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
 .group38{
     display: flex;
     gap: 19px;
@@ -212,11 +240,14 @@ h1{
     margin: 60px;
     align-items: center;
 }
+#frame3:hover{
+    background-color: gray;
+}
 
 /* footer section */
 
 .rectangle17{
-    background-color: #01ACFD;
+    background-color: rgba(128, 128, 128, 0.911);
     padding-top: 123px;
     padding-bottom: 174px;
     padding-left: 140px;
@@ -238,8 +269,11 @@ h1{
 }
 
 .about-school-btns{
-    background-color: #01ACFD;
+    background-color: rgba(128, 128, 128, 0);
     color: white;
     border: none;
     margin-top: 20px;
+}
+.about-school-btns:hover{
+    background-color: #05D4DF;
 }
