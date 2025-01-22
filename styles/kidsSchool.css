@@ -62,6 +62,19 @@ ul,a{
     background-color: rgb(223, 130, 9);
 }
 
+.hamburger-icon{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.hamburger-icon img {
+    width: 30px;
+    height: auto;
+}
+
 /* header section */
 
 .display{
@@ -105,11 +118,14 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 28px;
+    width: 1160px;
 }
 .sections{
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 19px;
     width: 33%;
     height: 340px;
@@ -121,7 +137,7 @@ h1{
 }
 
 .ks-color2{
-    background: linear-gradient(to bottom, rgba(223, 169, 53, 0.384), rgba(172, 211, 66, 0.411));
+    background: linear-gradient(to bottom, rgba(226, 169, 45, 0.384), rgba(174, 221, 44, 0.377));
 }
 
 .ks-color3{
@@ -136,9 +152,7 @@ h1{
     background-color: white;
     border: none;
     background-color: rgba(254, 180, 123, 0);
-    margin-top: 10px;
-    margin-bottom: 53px;
-    margin-left: 95px;
+    padding-top: 20px;
 }
 .kinder-btn:hover{
     color: #5D58F0;
@@ -149,9 +163,7 @@ h1{
     background-color: white;
     border: none;
     background-color: rgba(172, 211, 66, 0);
-    margin-top: 10px;
-    margin-bottom: 53px;
-    margin-left: 95px;
+    margin-top: 20px;
 }
 
 .elementary-btn:hover{
@@ -164,9 +176,7 @@ h1{
     background-color: white;
     border: none;
     background-color: rgba(202, 59, 154, 0);
-    margin-top: 10px;
-    margin-bottom: 53px;
-    margin-left: 95px;
+    margin-top: 20px;
 }
 
 .middle-school-btn:hover{
@@ -263,7 +273,6 @@ h1{
     display: block;
 }
 
-
 /* view all button */
 
 #frame3{
@@ -282,7 +291,7 @@ h1{
 
 .rectangle17{
     color: white;
-    background-color: rgba(128, 128, 128, 0.911);
+    background-color: rgba(100, 99, 99, 0.719);
     padding-top: 123px;
     padding-bottom: 174px;
     padding-left: 140px;
@@ -319,4 +328,33 @@ h1{
 }
 .about-school-btns:hover{
     color: black;
+}
+
+/* for media query */
+
+@media screen and (max-width: 576px){
+        .navPosition > *:not(.img-logo){
+            display: none;
+        }
+        .img-logo h3{
+            display: none;
+        }
+        .hamburger-icon{
+            display: block;
+        }
+    .display{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }  
+    .r-img{
+        order: -1;
+        width: 337px;
+        height: 510px;
+    }  
+    .standard-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
