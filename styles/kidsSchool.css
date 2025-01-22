@@ -106,23 +106,28 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 28px;
-    /* background-image: url('/assets/bg.png'); */
 }
-.kinder-section{
-    border-radius: 19px;
+.sections{
     justify-content: center;
     align-items: center;
-}
-.elementary-section{
     border-radius: 19px;
-    justify-content: center;
-    align-items: center;
+    width: 33%;
+    height: 340px;
+    padding: 40px;
 }
-.middle-year-section{
-    border-radius: 19px;
-    justify-content: center;
-    align-items: center;
+
+.ks-color1{
+    background: linear-gradient(to bottom, rgba(65, 199, 204, 0.301), rgba(254, 180, 123, 0.8));
 }
+
+.ks-color2{
+    background: linear-gradient(to bottom, rgba(223, 169, 53, 0.384), rgba(172, 211, 66, 0.411));
+}
+
+.ks-color3{
+    background: linear-gradient(to bottom, rgba(73, 95, 218, 0.301), rgba(202, 59, 154, 0.63));
+}
+
 .section-para{
     color: #808080;
 }
@@ -130,16 +135,43 @@ h1{
     color: skyblue;
     background-color: white;
     border: none;
+    background-color: rgba(254, 180, 123, 0);
+    margin-top: 10px;
+    margin-bottom: 53px;
+    margin-left: 95px;
+}
+.kinder-btn:hover{
+    color: #5D58F0;
+    scale: 1.1;
 }
 .elementary-btn{
     color: orange;
     background-color: white;
     border: none;
+    background-color: rgba(172, 211, 66, 0);
+    margin-top: 10px;
+    margin-bottom: 53px;
+    margin-left: 95px;
 }
+
+.elementary-btn:hover{
+    scale: 1.1;
+    color: orangered;
+}
+
 .middle-school-btn{
     color: #8700FF;
     background-color: white;
     border: none;
+    background-color: rgba(202, 59, 154, 0);
+    margin-top: 10px;
+    margin-bottom: 53px;
+    margin-left: 95px;
+}
+
+.middle-school-btn:hover{
+    color: rgb(13, 48, 243);
+    scale: 1.1;
 }
 
 .odvut-btn{
@@ -153,15 +185,17 @@ h1{
     font-size:35px;
     margin-bottom: 60px;
     margin-top: 90px;
+    background: linear-gradient(to left, rgba(241, 0, 0, 0.568),orange );
 }
 .odvut-btn:hover{
     background-color: orangered;
+    scale: 1.2;
 }
 
 /* our story section */
 
 .our-story {
-        background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0.068), rgba(254, 161, 1, 0.281)), url('/assets/bg.png');
+        background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0), rgba(254, 237, 1, 0.295)), url('/assets/bg.png');
 }
 
 .for-content-alignment{
@@ -258,8 +292,6 @@ h1{
 .group35{
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
-    /* grid-template-columns: repeat(1,1fr); */
 }
 
 .kids-edu{
