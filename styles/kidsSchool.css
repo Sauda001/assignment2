@@ -14,9 +14,26 @@
     margin: 0 141px;
 }
 
+body
+{
+    margin: 0px;
+}
+
+.textCenter{
+    text-align: center;
+}
+.textJustify{
+    text-align: justify;
+}
 /* nav bar styles */
 
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .navPosition{
+    width: 1160px;
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -65,9 +82,6 @@ ul,a{
 .hamburger-icon{
     display: none;
     cursor: pointer;
-    position: absolute;
-    top: 15px;
-    right: 20px;
 }
 
 .hamburger-icon img {
@@ -75,16 +89,33 @@ ul,a{
     height: auto;
 }
 
+.custom-line {
+    border: none; 
+    height: 2px; 
+    background-color: #FEA301; 
+    margin: 20px 0; 
+    display: none;
+}
 /* header section */
 
+header{
+    display: flex;
+    justify-content: center;
+
+}
 .display{
+    width: 1160px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
+.titleContainer{
+    width: 90%;
+}
 
 .title{
+
     font-weight: 700;
     font-size: 46px;
 }
@@ -103,7 +134,20 @@ ul,a{
     background-color: gray;
 }
 
+.r-img{
+    width: 95%;
+}
+.r-img img{
+    width: 100%;
+}
 /* satandard curriculam sector */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1{
     font-weight: 700;
@@ -112,8 +156,9 @@ h1{
     margin-bottom: 80px;
 }
 .for-bg{
-    background-image: url('/assets/bg.png');
+    background-image: url('../assets/bg.png');
 }
+
 .standard-section{
     display: flex;
     justify-content: center;
@@ -130,6 +175,11 @@ h1{
     width: 33%;
     height: 340px;
     padding: 40px;
+}
+
+.curriculam{
+    width: 1160px;
+
 }
 
 .ks-color1{
@@ -204,8 +254,14 @@ h1{
 
 /* our story section */
 
+.storyContainer{
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0), rgba(254, 237, 1, 0.295)), url('/assets/bg.png');
+    display: flex;
+    justify-content: center;
+}
 .our-story {
-        background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0), rgba(254, 237, 1, 0.295)), url('/assets/bg.png');
+    width: 1160px;
 }
 
 .for-content-alignment{
@@ -216,6 +272,7 @@ h1{
 }
 .group38{
     display: flex;
+    align-items: start;
     gap: 19px;
 }
 .group20{
@@ -266,6 +323,8 @@ h1{
 .article1{
     background-color: white;
     border-radius: 16px;
+
+
 }
 .article{
     background-color: white;
@@ -336,43 +395,70 @@ h1{
 
 /* for media query */
 
-@media screen and (max-width: 576px){
-        .navPosition > *:not(.img-logo){
-            display: none;
-        }
-        .img-logo h3{
-            display: none;
-        }
-        .hamburger-icon{
-            display: block;
-        }
+@media screen and (max-device-width: 430px)  {
+
+    .hamburger-icon{
+        display: block;
+    }
+    .navOption,.navButton{
+        display: none;
+    }
+    .navPosition{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .custom-line
+    {
+        display: block;
+        margin: 10px;
+    }
     .display{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-    }  
-    .r-img{
-        order: -1;
-        width: 337px;
-        height: 510px;
     }  
     .standard-section{
+        width: 100%;
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .curriculam{
+        width: 100%;
+    }
+    .sections{
+        width: 70%;
+    }
+
+    .arrowContainer{
+        display: none;
     }
     .article1{
         display: none;
     }
-    .group38{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+    .our-story{
+        width: 100%;
     }
+
+    .group20{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .article{
+        width: 45%;
+    }
+    .img-article{
+        width: 100%;
+    }
+
+
     .rectangle17{
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
+        padding: 20px;
     }
     .group35{
         flex-direction: column;
@@ -380,4 +466,12 @@ h1{
         align-items: flex-start;
         text-align: left;
     }
+    .kids-edu-total{
+        width: 100%;
+    }
+
+    .btn3,.btn2{
+        margin-left: 20px;
+    }
+    
 }
