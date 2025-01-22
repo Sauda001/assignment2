@@ -263,6 +263,10 @@ h1{
 .article-para-color{
     color: #666666;
 }
+.article1{
+    background-color: white;
+    border-radius: 16px;
+}
 .article{
     background-color: white;
     border-radius: 16px;
@@ -356,5 +360,24 @@ h1{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .article1{
+        display: none;
+    }
+    .group38{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .rectangle17{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .group35{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
     }
 }
