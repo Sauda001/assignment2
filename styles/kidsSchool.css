@@ -256,7 +256,7 @@ h1{
 
 .storyContainer{
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0), rgba(254, 237, 1, 0.295)), url('/assets/bg.png');
+    background-image: linear-gradient(to bottom, rgba(254, 161, 1, 0), rgba(254, 237, 1, 0.295)), url('../assets/bg.png');
     display: flex;
     justify-content: center;
 }
