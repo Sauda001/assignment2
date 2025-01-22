@@ -152,6 +152,56 @@ h1{
     gap: 19px;
 }
 
+.btn1{
+    color: white;
+    border-radius: 48px;
+    border: none;
+    background-color: #3CD8E8;
+    margin-left: 38px;
+    padding: 15px 19px;
+    margin-top: -25px;
+}
+.btn2{
+    color: white;
+    border-radius: 48px;
+    border: none;
+    background-color: #95B226;
+    margin-left: 38px;
+    padding: 10px 15px;
+    margin-top: -25px;
+}
+.btn3{
+    color: white;
+    border-radius: 48px;
+    border: none;
+    background-color: #5D58F0;
+    margin-left: 38px;
+    padding: 10px 15px;
+    margin-top: -25px;
+}
+.artcle-margin{
+    padding-left: 38px;
+    padding-right: 68px;
+    padding-bottom: 35px;
+}
+.artcle-margin-group20{
+    padding-left: 38px;
+    padding-right: 38px;
+}
+.article-para-color{
+    color: #666666;
+}
+.article{
+    background-color: white;
+    border-radius: 16px;
+}
+.img-article {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: block;
+}
+
+
 /* view all button */
 
 #frame3{
